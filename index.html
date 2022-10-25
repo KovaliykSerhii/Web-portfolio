@@ -23,22 +23,29 @@
           
           <!-- NAVIGATION MENUS -->
           <div class="menu">
-            <li><a href="/">About</a></li>
-            <li><a href="/">Experience</a></li>
-            <li><a href="/">Work</a></li>
-            <li><a href="/">Contact</a></li>
-            <li><a href="/">Resume</a></li>
+            <li><a href="#about">01. About</a></li>
+            <li><a href="/">02. Experience</a></li>
+            <li><a href="/">03. Work</a></li>
+            <li><a href="/">04. Contact</a></li>
+            <li><a class="resume-button" href="/">Resume</a></li>
           </div>
         </ul>
       </nav>
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-<um>
-  <lu class='rotatable'>
-    ——Follow me
-  </lu>
-  <lu><i class="fab fa-instagram"></i></lu>
-  <lu><i class="fab fa-pinterest"></i></lu>
-</um>
+       <!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="github"><i class="fa fa-github"></i></a>
+  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+  <a href="https://codepen.io/KovaliykSerhii" class="codepen"><i class="fa fa-codepen"></i></a>
+  
+</div> 
+
+
 
 <main>
     <section class="hero__StyledHeroSection-sc-116xg8t-0 eEjAsd">
@@ -47,10 +54,95 @@
                 <h2 class="big-heading">Serhii Kovaliyk</h2></div>
                 <div style="transition-delay: 300ms;" class="fadeup-enter-done"><h3 class="big-heading">I build things for the web.</h3></div>
                 <div style="transition-delay: 400ms;" class="fadeup-enter-done">
-                    <p>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at .</p></div>
+                    <p>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at .</p>
+                    
+                  </div>
+
+                    <div class="git-button">
+                      <a class="email-link" href="https://www.newline.co/courses/build-a-spotify-connected-app" target="_blank" rel="noreferrer">Check out my github</a>
+                     </div>
                 
     </section>
+
+    <section id="about" class="about" >
+      <h2 class="numbered-heading">01. About me</h2>
+    <div class="inner">
+      <div class="about-pic">
+        <div class="wrapper">
+          <picture class="about-img-wrapper">
+            <img alt="Cat-programmer"  src="src/img/cat-programmer.jpg">
+          </picture>
+        </div>
+       </div>
+      <div class="about-m">
+      <div><p>Hello! My name is Serhii and I enjoy creating things that live on our websites. My interest in web development started back in 2015 when I first looked at the source code of the school's website, and in practice I learned how  HTML &amp; CSS work!</p>
+        <p></a>
+        </p>
+        
+      </div>
+      <div class="skills">
+      <h2>Relevant skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          
+        </ul>
+        
+       </div>
+       
+    </div>
+    
+    </div>
+
+    </section >
+    <section id="experience">
+      <h2 class="numbered-heading">02. My work experiences</h2>
+      <div class="inner">
+        <div class="tabset">
+          <!-- Tab 1 -->
+          <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
+          <label for="tab1">Märzen</label>
+          <!-- Tab 2 -->
+          <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
+          <label for="tab2">Rauchbier</label>
+          <!-- Tab 3 -->
+          <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
+          <label for="tab3">Dunkles Bock</label>
+          
+          <div class="tab-panels">
+            <section id="marzen" class="tab-panel">
+              <h2>6A. Märzen</h2>
+              <p><strong>Overall Impression:</strong> An elegant, malty German amber lager with a clean, rich, toasty and bready malt flavor, restrained bitterness, and a dry finish that encourages another drink. The overall malt impression is soft, elegant, and complex, with a rich aftertaste that is never cloying or heavy.</p>
+              <p><strong>History:</strong> As the name suggests, brewed as a stronger “March beer” in March and lagered in cold caves over the summer. Modern versions trace back to the lager developed by Spaten in 1841, contemporaneous to the development of Vienna lager. However, the Märzen name is much older than 1841; the early ones were dark brown, and in Austria the name implied a strength band (14 °P) rather than a style. The German amber lager version (in the Viennese style of the time) was first served at Oktoberfest in 1872, a tradition that lasted until 1990 when the golden Festbier was adopted as the standard festival beer.</p>
+          </section>
+            <section id="rauchbier" class="tab-panel">
+              <h2>6B. Rauchbier</h2>
+              <p><strong>Overall Impression:</strong>  An elegant, malty German amber lager with a balanced, complementary beechwood smoke character. Toasty-rich malt in aroma and flavor, restrained bitterness, low to high smoke flavor, clean fermentation profile, and an attenuated finish are characteristic.</p>
+              <p><strong>History:</strong> A historical specialty of the city of Bamberg, in the Franconian region of Bavaria in Germany. Beechwood-smoked malt is used to make a Märzen-style amber lager. The smoke character of the malt varies by maltster; some breweries produce their own smoked malt (rauchmalz).</p>
+            </section>
+            <section id="dunkles" class="tab-panel">
+              <h2>6C. Dunkles Bock</h2>
+              <p><strong>Overall Impression:</strong> A dark, strong, malty German lager beer that emphasizes the malty-rich and somewhat toasty qualities of continental malts without being sweet in the finish.</p>
+              <p><strong>History:</strong> Originated in the Northern German city of Einbeck, which was a brewing center and popular exporter in the days of the Hanseatic League (14th to 17th century). Recreated in Munich starting in the 17th century. The name “bock” is based on a corruption of the name “Einbeck” in the Bavarian dialect, and was thus only used after the beer came to Munich. “Bock” also means “Ram” in German, and is often used in logos and advertisements.</p>
+            </section>
+          </div>
+          
+        </div>
+        
+        <p><small>Source: <cite><a href="https://www.bjcp.org/stylecenter.php">BJCP Style Guidelines</a></cite></small></p>
+      </div>
+
+    </section>
+
+    
+    
+    
+    
+
        </main> 
+      
   
      
 </body>
