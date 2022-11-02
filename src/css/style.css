@@ -28,10 +28,7 @@ color: white;
 font-size: 20px;
 }
 
-/* Style the social media icons with color, if you want */
-.icon-bar a:hover {
-background-color: #11172c;
-}
+
 
 
 /* UTILITIES */
@@ -57,7 +54,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: #232323;
+  background: #192241;
   color: #ccc;
 }
 
@@ -302,7 +299,10 @@ border-top: 1px solid aqua;
 
 
 
-
+a:hover{
+  color:aqua;
+  
+}
 
 
 
