@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 500 500" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs></defs>
+  <path d="M 256.387 155.109 L 347.256 207.117 L 347.256 311.132 L 256.387 363.139 L 165.518 311.132 L 165.518 207.117 Z" style="stroke: rgb(0, 255, 242); stroke-width: 7px; fill: rgba(216, 216, 216, 0);" bx:shape="n-gon 256.387 259.124 104.927 104.015 6 0 1@23ce523f"></path>
+  <text style="fill: rgb(0, 255, 247); font-family: Arial, sans-serif; font-size: 101px; white-space: pre;" x="222.627" y="289.234">S</text>
+</svg>
