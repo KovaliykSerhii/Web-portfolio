@@ -16,7 +16,7 @@
 
 
 ## Technologies Used
-- Html : v3
+- Html : v5
 - Css : v5
 - Java Script : ES2022
 
