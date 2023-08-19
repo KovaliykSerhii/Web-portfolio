@@ -10,7 +10,7 @@ body {
   
 }
 
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+/* Fixed/sticky icon bar */
 .icon-bar {
 position: fixed;
 top: 50%;
