@@ -44,7 +44,7 @@ Project is: _in progress_
 
 ## Acknowledgements
 
-- This project was inspired by Kovaliyk Serhii and Yura Nikulay
+- This project was inspired by Kovaliyk Serhii
 
 
 
