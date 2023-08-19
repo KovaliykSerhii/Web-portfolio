@@ -19,7 +19,7 @@
 - Html : v5
 - Css : v5
 - Java Script : ES2022
-
+- jQuery 
 
 ## Features
 List the ready features here:
