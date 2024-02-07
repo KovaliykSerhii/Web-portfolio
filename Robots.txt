@@ -1,0 +1,5 @@
+User-agent: *
+sitemap: https://kovaliyk-serhii-portfolio.netlify.app/sitemap.xml
+
+
+Allow: https://kovaliyk-serhii-portfolio.netlify.app/
